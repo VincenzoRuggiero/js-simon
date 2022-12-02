@@ -6,7 +6,7 @@ function clickCounter() {
   buttonElem.addEventListener("click", function () {
     while (points < 10) {
       points++;
-      button.innerHTML = `${points}`;
+      button.innerHTML = ${points};
     }
 
     if (points === 10) {
@@ -16,3 +16,5 @@ function clickCounter() {
   });
   return;
 }
+
+clickCounter();
